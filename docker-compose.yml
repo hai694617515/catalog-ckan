@@ -23,7 +23,7 @@ services:
     container_name: redis
 
   ckan:
-    image: ioos/catalog-docker-ckan:latest
+    image: hai694617515/catalog-docker-ckan:latest
     container_name: ckan
     env_file: env
     ports:
